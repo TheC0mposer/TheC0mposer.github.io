@@ -85,7 +85,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding-top: 19px;
   padding-bottom: 18px;
   padding-left: 18px;
@@ -129,10 +129,10 @@ a {
 
 form {
   margin-top: 160px;
-  margin-left: 27%;
+  margin-left: 31%;
   padding-bottom: 100px; }
 
-input[type="email"], input[type="textera"] {
+input[type="email"], textarea {
   color: black;
   background-color: #9999ff; }
 
@@ -144,15 +144,12 @@ input[type="email"] {
   margin-bottom: 20px;
   border: solid 5px #e8f2f9; }
 
-input[type="textera"] {
+textarea {
   display: block;
-  width: 50%;
   font-family: Arial;
   font-size: 12.5px;
-  margin-bottom: 20px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-  border: solid 5px #e8f2f9; }
+  border: solid 5px #e8f2f9;
+  margin-bottom: 30px; }
 
 input[type="submit"] {
   -moz-box-shadow: 0px 10px 14px -7px #3e7327;
@@ -195,7 +192,7 @@ input[type="submit"]:active {
   top: 1px; }
 
 .subMenu a:hover {
-  background: #1a75ff; }
+  background: white; }
 
 /*fix active {
         background: #1a75ff;
