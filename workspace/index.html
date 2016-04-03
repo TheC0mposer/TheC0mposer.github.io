@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="mainModule">
+  <div id="imgOne">
+     
+  <head>
+    
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="placeholdercolor.css">
+    
+    <meta charset="UTF-8">
+    
+    <div class="subMenu" >
+  	 	<div class="inner">
+        <ul id="navBar">
+          <li><a href="#sTop" class="subNavBtn"> Me </a></li>
+          <li><a href="#s1" class="subNavBtn"> Education </a></li>
+          <li><a href="#s2" class="subNavBtn"> Work Ethic </a></li>
+          <li><a href="#s3" class="subNavBtn"> Say Hello! </a></li>
+        </ul>
+      </div>
+    </div>
+
+  </head>
+  
+  
+  <body>
+    
+    <a href="https://github.com/TheC0mposer"><img src="GitHubHandle.jpg" class="GitHandle"></a> <!-- Github & add styling & make sticky -->
+    <a href="https://twitter.com/SethMWarner"><img src="TwitterHandle.jpg" class="TwitHandle"></a> <!-- Twitter & add styling $ make sticky-->
+   
+    <h1 id="welcome"> Welcome! </h1>
+          
+    <div class="wrap ">	  
+      <div class="section sTop">
+        <div class="inner">
+          <h2> Designer, Photogrpaher, Frontend Developer </h2>
+          
+          <div ng-controller="MeController">
+            <p ng-bind-html="myHTML"></p>
+          </div>
+         </div>
+      </div>
+        
+      <div class="section s1">
+        <div class="inner">
+          <h2> How I came to be </h2>
+          
+           <div ng-controller="EduController">
+             <p ng-bind-html="myHTML"></p>
+           </div>
+          </div>
+        </div>
+        
+      <div class="section s2">
+        <div class="inner">
+          <h2> Simplicity is key </h2>
+          
+          <div ng-controller="EthicController">
+            <p ng-bind-html="myHTML"></p>
+          </div>
+        </div>
+      </div>
+        
+      <div class="section s3">
+        <div class="inner">
+            <form contactForm action="https://formspree.io/agentsward@gmail.com" method="POST">
+              <input type="email" name="_replyto" placeholder="you@yoursite.com" data-ng-minlendth="3" required/>
+              <input type="textera" name="message" placeholder="speak your mind..." data-ng-minlendth="3" required/>
+              <input type="submit" value="Send"/>
+            </form>
+           </div>
+         </div>
+      </div>
+    
+   
+  
+  </body>
+  
+  
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>                                                         <!-- Jquery CDN -->
+  <script type="text/javascript" src="jquery.sticky.js"></script>                                                        <!-- Jquery Plugin -->
+  <script type="text/javascript" src="jquery.smint.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-sanitize.js"></script>
+  <script src="script.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+ </div> 
+ 
+</html>

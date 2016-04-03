@@ -1,0 +1,235 @@
+@import "reset.scss"; /* This removes any implemented browser
+default styles, allow your styles to be law!*/
+$fontColor: lighten(#ffff99, 10%);
+$font-color: complement($fontColor);
+$background-color: complement(#1a8cff);
+$welcome: lighten(#ffff99, 10%);
+$navBarColor: #99bbff;
+
+%marginText {
+     margin-left: 400px;
+     margin-right: 400px;
+    
+}
+
+
+@mixin skilFontDesign {
+    text-align: center;
+    font-size: 50px;
+    color: $welcome;
+    margin-top: 100px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+#imgOne {
+    background-image: url(MarvelImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+
+
+#welcome {
+    text-align: center;
+    font-size: 160px;
+    color: $welcome;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+p {
+  @extend  %marginText;
+  line-height: 100%;
+  text-align: left;
+  color: $font-color;
+  line-height: 30px;
+    
+}
+
+
+
+
+#masteredFront li, #masteredBack li, #honingNow li, #intendingTo li {
+    display: inline;
+    text-align: center;
+}
+
+
+
+h2 {
+    @include skilFontDesign;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+#navBar {
+    background-color: $navBarColor;
+    opacity: 0.6;
+    height: 25px;
+    padding: 20px;
+    padding-left: 25px;
+  
+}
+
+#navBar li {
+  font-family: Utopia-Std-subhead, serif;
+  font-size: 26px;
+  display: inline;
+  border-margin: 40px;
+  padding-right: 200px;
+  left: 20%;
+  &:hover {
+    font-size: 24px;
+    opacity: 15;
+    height: 15px;
+  }
+  position: relative;
+  left: 5%;
+  
+}
+
+
+.GitHandle, .TwitHandle {
+    border-radius: 50%;
+    border: 3px solid white;
+    position: fixed;
+    width: 5%;
+    right: 2.5%;
+    &:hover {
+     opacity: 0.5;
+        
+    }
+    
+    
+   
+}
+
+.GitHandle {
+    top: 55%;
+    
+}
+
+.TwitHandle {
+    top: 40%;
+    
+}
+
+form {
+    margin-top: 160px;
+    margin-left: 27%;
+    padding-bottom: 100px;
+    
+   
+}
+
+input[type="email"], input[type="textera"] {
+    color: black;
+    background-color: #9999ff;   
+    
+}
+
+input[type="email"] {
+    display: block;
+    width: 30%;
+    font-family: Arial;
+    font-size: 12.5px;
+    margin-bottom: 20px;
+    border: solid 5px #e8f2f9;
+    
+}
+
+input[type="textera"] {
+    display: block;
+    width: 50%;
+    font-family: Arial;
+    font-size: 12.5px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 5px #e8f2f9;
+    
+}
+
+input[type="submit"] {
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+input[type="submit"]:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+}
+input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
+
+.subMenu a:hover {
+	background: #1a75ff;
+}
+
+
+/*fix active {
+        background: #1a75ff;
+    }
+    
+and
+
+when sticky change the color of the nav bar, SMINT and isstick plugins may not
+play well with one another.
+
+Also fix top of page, when scrolling down manually, there appears to b ea large
+white space at the top of the screen just above the nav bar.
+
+*/
+
+
+
+
+
+
+
+
+
