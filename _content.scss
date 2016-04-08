@@ -1,4 +1,4 @@
-#welcome {
+.welcome {
     @include contentMixin($margin-top: $pixelTwoHundred, $margin-bottom: $pixelTwoHundred, $text-align: $center, $font-size: 160px, $color: $fontColor);
     
 }
