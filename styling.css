@@ -49,13 +49,13 @@ table {
 
                       /* This removes any implemented browser
 default styles, allow your styles to be law!*/
-#imgOne {
+.imgOne {
   background-image: url(MarvelImage.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center; }
 
-#welcome {
+.welcome {
   margin-top: 200px;
   margin-bottom: 200px;
   text-align: center;
