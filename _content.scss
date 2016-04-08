@@ -1,0 +1,23 @@
+#welcome {
+    @include contentMixin($margin-top: $pixelTwoHundred, $margin-bottom: $pixelTwoHundred, $text-align: $center, $font-size: 160px, $color: $fontColor);
+    
+}
+
+
+p {
+    @include contentMixin($margin-right: 400px, $margin-left: 400px, $line-height: $pixelThirty, $text-align: left, $color: $font-color);
+  
+}
+
+
+#masteredFront li, #masteredBack li, #honingNow li, #intendingTo li {
+    @include contentMixin($display: inline, $text-align: $center);
+    
+}
+
+
+h2 {
+    @include contentMixin($margin-top: 100px, $padding-bottom: 15px, $text-align: $center, $font-size: 50px, $color: $fontColor);
+    
+}
+

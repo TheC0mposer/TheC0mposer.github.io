@@ -49,10 +49,6 @@ table {
 
                       /* This removes any implemented browser
 default styles, allow your styles to be law!*/
-p {
-  margin-left: 400px;
-  margin-right: 400px; }
-
 #imgOne {
   background-image: url(MarvelImage.jpg);
   background-size: cover;
@@ -60,63 +56,63 @@ p {
   background-position: center; }
 
 #welcome {
+  margin-top: 200px;
+  margin-bottom: 200px;
   text-align: center;
   font-size: 160px;
-  color: #ffffcc;
-  margin-top: 200px;
-  margin-bottom: 200px; }
+  color: #ffffcc; }
 
 p {
+  margin-right: 400px;
+  margin-left: 400px;
+  line-height: 30px;
   text-align: left;
-  color: #ccccff;
-  line-height: 30px; }
+  color: #ccccff; }
 
 #masteredFront li, #masteredBack li, #honingNow li, #intendingTo li {
   display: inline;
   text-align: center; }
 
 h2 {
+  margin-top: 100px;
+  padding-bottom: 15px;
   text-align: center;
   font-size: 50px;
-  color: #ffffcc;
-  margin-top: 100px;
-  padding-bottom: 15px; }
+  color: #ffffcc; }
 
 a {
-  text-decoration: none;
-  color: black;
   padding-top: 19px;
+  padding-right: 18px;
   padding-bottom: 18px;
   padding-left: 18px;
-  padding-right: 18px; }
+  text-decoration: none;
+  color: black; }
 
 #navBar {
-  background-color: #99bbff;
-  opacity: 0.6;
-  height: 25px;
   padding: 20px;
-  padding-left: 25px; }
+  padding-left: 25px;
+  height: 25px;
+  background-color: #99bbff;
+  opacity: 0.6; }
 
 #navBar li {
-  font-family: Utopia-Std-subhead, serif;
-  font-size: 26px;
   display: inline;
-  border-margin: 40px;
-  padding-right: 200px;
-  left: 20%;
   position: relative;
-  left: 5%; }
+  padding-right: 200px;
+  left: 5%;
+  font-family: "Utopia-Std-subhead, serif";
+  font-size: 26px; }
   #navBar li:hover {
+    height: 15px;
     font-size: 24px;
-    opacity: 15;
-    height: 15px; }
+    opacity: 15; }
 
 .GitHandle, .TwitHandle {
   border-radius: 50%;
-  border: 3px solid white;
-  position: fixed;
+  right: 2.5%;
   width: 5%;
-  right: 2.5%; }
+  border: 3px solid white;
+  position: fixed; }
   .GitHandle:hover, .TwitHandle:hover {
     opacity: 0.5; }
 
@@ -132,23 +128,23 @@ form {
   padding-bottom: 100px; }
 
 input[type="email"], textarea {
-  color: black;
-  background-color: #9999ff; }
+  background-color: #9999ff;
+  color: black; }
 
 input[type="email"] {
   display: block;
-  width: 30%;
-  font-family: Arial;
-  font-size: 12.5px;
   margin-bottom: 20px;
-  border: solid 5px #e8f2f9; }
+  width: 30%;
+  border: solid 5px #e8f2f9;
+  font-family: Arial;
+  font-size: 12.5px; }
 
 textarea {
   display: block;
-  font-family: Arial;
-  font-size: 12.5px;
+  margin-bottom: 30px;
   border: solid 5px #e8f2f9;
-  margin-bottom: 30px; }
+  font-family: Arial;
+  font-size: 12.5px; }
 
 input[type="submit"] {
   -moz-box-shadow: 0px 10px 14px -7px #3e7327;
@@ -187,11 +183,11 @@ input[type="submit"]:hover {
   background-color: #72b352; }
 
 input[type="submit"]:active {
-  position: relative;
-  top: 1px; }
+  top: 1px;
+  position: relative; }
 
 .subMenu a:hover {
-  background: white; }
+  background-color: white; }
 
 /*fix active {
         background: #1a75ff;

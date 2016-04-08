@@ -1,0 +1,83 @@
+$fontColor: lighten(#ffff99, 10%);
+$font-color: complement($fontColor);
+$background-color: complement(#1a8cff);
+$navBarColor: #99bbff;
+$pixelTwoHundred: 200px;
+$center: center;
+$pixelEighteen: 18px;
+$pixelThirty: 30px;
+$pixelTwenty: 20px;
+$solid: solid;
+$arial: Arial;
+$pixelZero: 0px;
+$fivePercent: 5%;
+$oneHundredPercent: 100%;
+$pixelFour: 4px;
+$submitColorOne: #77b55a;
+$submitColorTwo: #72b352;
+$pixelTen: 10px;
+$pixelFourteen: 14px;
+$pixelNegativeSeven: -7px;
+
+@mixin contentMixin($display: null, $margin-top: null, $margin-right: null, $margin-bottom: null, $margin-left: null, $padding-bottom: null, $line-height: null, $text-align: null, $font-size: null, $color: null) {
+    display: $display;
+    margin-top: $margin-top;
+    margin-right: $margin-right;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
+    padding-bottom: $padding-bottom;
+    line-height: $line-height;
+    text-align: $text-align;
+    font-size: $font-size;
+    color: $color;
+
+}
+
+
+@mixin navBarMixin($display: null, $position: null, $padding: null, $padding-top: null, $padding-right: null, $padding-bottom: null, $padding-left: null, $height: null, $left: null, $background-color: null, $text-decoration: null, $font-family: null, $font-size: null, $color: null, $opacity: null) {
+    display: $display;
+    position: $position;
+    padding: $padding;
+    padding-top: $padding-top;
+    padding-right: $padding-right;
+    padding-bottom: $padding-bottom;
+    padding-left: $padding-left;
+    height: $height; 
+    left: $left;
+    background-color: $background-color;
+    text-decoration: $text-decoration;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color;
+    opacity: $opacity;
+
+}
+
+
+@mixin soicalMixin($border-radius: null, $top: null, $right: null, $width: null, $border: null, $position: null) {
+    border-radius: $border-radius;
+    top: $top;
+    right: $right;
+    width: $width;
+    border: $border;
+    position: $position;
+ 
+}
+
+
+@mixin formMixin($display: null, $margin-top: null, $margin-bottom: null, $margin-left: null, $padding-bottom: null, $top: null, $width: null, $border: null, $background-color: null, $font-family: null, $font-size: null, $color: null, $position: null) {
+    display: $display;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
+    padding-bottom: $padding-bottom;
+    top: $top;
+    width: $width;
+    border: $border;
+    background-color: $background-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color;
+    position: $position;
+    
+}

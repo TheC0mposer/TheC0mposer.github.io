@@ -1,0 +1,20 @@
+.GitHandle, .TwitHandle {
+    @include soicalMixin($border-radius: 50%, $border: 3px $solid white, $position: fixed, $width: $fivePercent, $right: 2.5%);
+    &:hover {
+        opacity: 0.5;
+        
+    }
+   
+}
+
+
+.GitHandle {
+    @include soicalMixin($top: 55%);
+    
+}
+
+
+.TwitHandle {
+    @include soicalMixin($top: 40%);
+    
+}
