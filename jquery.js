@@ -1,5 +1,3 @@
-$("#navBar").sticky();
-
 
 $(document).ready( function() {
     $('.subMenu').smint({

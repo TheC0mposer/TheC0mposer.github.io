@@ -5,7 +5,7 @@ a {
 
 
 #navBar {
-    @include navBarMixin($padding: $default-pixelTwenty, $padding-left: 25px, $height: 25px, $background-color: $default-navBarColor, $opacity: 0.6);
+    @include navBarMixin($position: fixed, $padding: $default-pixelTwenty, $padding-left: 25px, $height: 25px, $background-color: $default-navBarColor, $opacity: 0.6);
 
 }
 

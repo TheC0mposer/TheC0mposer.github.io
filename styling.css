@@ -53,7 +53,8 @@ default styles, allow your styles to be law!*/
   background-image: url(MarvelImage.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: fixed;
+  top: 0; }
 
 .welcome {
   margin-top: 200px;
@@ -89,6 +90,7 @@ a {
   color: black; }
 
 #navBar {
+  position: fixed;
   padding: 20px;
   padding-left: 25px;
   height: 25px;
