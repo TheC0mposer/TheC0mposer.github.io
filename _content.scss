@@ -1,23 +1,23 @@
 .welcome {
-    @include contentMixin($margin-top: $pixelTwoHundred, $margin-bottom: $pixelTwoHundred, $text-align: $center, $font-size: 160px, $color: $fontColor);
+    @include contentMixin($margin-top: $default-pixelTwoHundred, $margin-bottom: $default-pixelTwoHundred, $text-align: $default-center, $font-size: 160px, $color: $default-fontColor);
     
 }
 
 
 p {
-    @include contentMixin($margin-right: 400px, $margin-left: 400px, $line-height: $pixelThirty, $text-align: left, $color: $font-color);
+    @include contentMixin($margin-right: 400px, $margin-left: 400px, $line-height: $default-pixelThirty, $text-align: left, $color: $default-font-color);
   
 }
 
 
 #masteredFront li, #masteredBack li, #honingNow li, #intendingTo li {
-    @include contentMixin($display: inline, $text-align: $center);
+    @include contentMixin($display: inline, $text-align: $default-center);
     
 }
 
 
 h2 {
-    @include contentMixin($margin-top: 100px, $padding-bottom: 15px, $text-align: $center, $font-size: 50px, $color: $fontColor);
+    @include contentMixin($margin-top: 100px, $padding-bottom: 15px, $text-align: $default-center, $font-size: 50px, $color: $default-fontColor);
     
 }
 
