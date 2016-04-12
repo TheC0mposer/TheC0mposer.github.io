@@ -1,23 +1,28 @@
-$fontColor: lighten(#ffff99, 10%);
-$font-color: complement($fontColor);
-$background-color: complement(#1a8cff);
-$navBarColor: #99bbff;
-$pixelTwoHundred: 200px;
-$center: center;
-$pixelEighteen: 18px;
-$pixelThirty: 30px;
-$pixelTwenty: 20px;
-$solid: solid;
-$arial: Arial;
-$pixelZero: 0px;
-$fivePercent: 5%;
-$oneHundredPercent: 100%;
-$pixelFour: 4px;
-$submitColorOne: #77b55a;
-$submitColorTwo: #72b352;
-$pixelTen: 10px;
-$pixelFourteen: 14px;
-$pixelNegativeSeven: -7px;
+$default-fontColor: lighten(#ffff99, 10%);
+$default-font-color: complement($default-fontColor);
+$default-arial: Arial;
+
+$default-background-color: complement(#1a8cff);
+$default-navBarColor: #99bbff;
+$default-submitColorOne: #77b55a;
+$default-submitColorTwo: #72b352;
+
+$default-pixelTwoHundred: 200px;
+$default-pixelThirty: 30px;
+$default-pixelTwenty: 20px;
+$default-pixelEighteen: 18px;
+$default-pixelFourteen: 14px;
+$default-pixelTen: 10px;
+$default-pixelFour: 4px;
+$default-pixelZero: 0px;
+$default-pixelNegativeSeven: -7px;
+
+$default-center: center;
+$default-solid: solid;
+$default-oneHundredPercent: 100%;
+$default-fivePercent: 5%;
+
+
 
 @mixin contentMixin($display: null, $margin-top: null, $margin-right: null, $margin-bottom: null, $margin-left: null, $padding-bottom: null, $line-height: null, $text-align: null, $font-size: null, $color: null) {
     display: $display;

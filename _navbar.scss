@@ -1,20 +1,20 @@
 a {
-    @include navBarMixin($padding-top: 19px, $padding-right: $pixelEighteen, $padding-bottom: $pixelEighteen, $padding-left: $pixelEighteen, $text-decoration: none, $color: black);
+    @include navBarMixin($padding-top: 19px, $padding-right: $default-pixelEighteen, $padding-bottom: $default-pixelEighteen, $padding-left: $default-pixelEighteen, $text-decoration: none, $color: black);
 
 }
 
 
 #navBar {
-    @include navBarMixin($padding: $pixelTwenty, $padding-left: 25px, $height: 25px, $background-color: $navBarColor, $opacity: 0.6);
+    @include navBarMixin($padding: $default-pixelTwenty, $padding-left: 25px, $height: 25px, $background-color: $default-navBarColor, $opacity: 0.6);
 
 }
 
 
 #navBar li {
-    @include navBarMixin($display: inline, $left: $fivePercent, $position: relative, $padding-right: $pixelTwoHundred, $font-size: 26px, $font-family: 'Utopia-Std-subhead, serif');
+    @include navBarMixin($display: inline, $left: $default-fivePercent, $position: relative, $padding-right: $default-pixelTwoHundred, $font-size: 26px, $font-family: 'Utopia-Std-subhead, serif');
     &:hover {
         height: 15px;
-        font-size: 24px;
+        font-size: 26px;
         opacity: 15;
     }
   

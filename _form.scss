@@ -11,52 +11,52 @@ input[type="email"], textarea {
 
 
 input[type="email"] {
-    @include formMixin($display: block, $margin-bottom: $pixelTwenty, $border: $solid 5px #e8f2f9, $width: 30%, $font-family: $arial, $font-size: 12.5px);
+    @include formMixin($display: block, $margin-bottom: $default-pixelTwenty, $border: $default-solid 5px #e8f2f9, $width: 30%, $font-family: $default-arial, $font-size: 12.5px);
     
 }
 
 
 textarea {
-    @include formMixin($margin-bottom: $pixelThirty, $border: $solid 5px #e8f2f9, $display: block, $font-family: $arial, $font-size: 12.5px);
+    @include formMixin($margin-bottom: $default-pixelThirty, $border: $default-solid 5px #e8f2f9, $display: block, $font-family: $default-arial, $font-size: 12.5px);
     
 }
 
 
 input[type="submit"] {
-	-moz-box-shadow: $pixelZero $pixelTen $pixelFourteen $pixelNegativeSeven #3e7327;
-	-webkit-box-shadow: $pixelZero $pixelTen $pixelFourteen $pixelNegativeSeven #3e7327;
-	box-shadow: $pixelZero $pixelTen $pixelFourteen $pixelNegativeSeven #3e7327;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, $submitColorOne), color-stop(1, $submitColorTwo));
-	background:-moz-linear-gradient(top, $submitColorOne $fivePercent, $submitColorTwo $oneHundredPercent);
-	background:-webkit-linear-gradient(top, $submitColorOne $fivePercent, $submitColorTwo $oneHundredPercent);
-	background:-o-linear-gradient(top, $submitColorOne $fivePercent, $submitColorTwo $oneHundredPercent);
-	background:-ms-linear-gradient(top, $submitColorOne $fivePercent, $submitColorTwo $oneHundredPercent);
-	background:linear-gradient(to bottom, $submitColorOne $fivePercent, $submitColorTwo $oneHundredPercent);
+	-moz-box-shadow: $default-pixelZero $default-pixelTen $default-pixelFourteen $default-pixelNegativeSeven #3e7327;
+	-webkit-box-shadow: $default-pixelZero $default-pixelTen $default-pixelFourteen $default-pixelNegativeSeven #3e7327;
+	box-shadow: $default-pixelZero $default-pixelTen $default-pixelFourteen $default-pixelNegativeSeven #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, $default-submitColorOne), color-stop(1, $default-submitColorTwo));
+	background:-moz-linear-gradient(top, $default-submitColorOne $default-fivePercent, $default-submitColorTwo $default-oneHundredPercent);
+	background:-webkit-linear-gradient(top, $default-submitColorOne $default-fivePercent, $default-submitColorTwo $default-oneHundredPercent);
+	background:-o-linear-gradient(top, $default-submitColorOne $default-fivePercent, $default-submitColorTwo $default-oneHundredPercent);
+	background:-ms-linear-gradient(top, $default-submitColorOne $default-fivePercent, $default-submitColorTwo $default-oneHundredPercent);
+	background:linear-gradient(to bottom, $default-submitColorOne $default-fivePercent, $default-submitColorTwo $default-oneHundredPercent);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
-	background-color:$submitColorOne;
-	-moz-border-radius:$pixelFour;
-	-webkit-border-radius:$pixelFour;
-	border-radius:$pixelFour;
-	border:1px $solid #4b8f29;
+	background-color:$default-submitColorOne;
+	-moz-border-radius:$default-pixelFour;
+	-webkit-border-radius:$default-pixelFour;
+	border-radius:$default-pixelFour;
+	border:1px $default-solid #4b8f29;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:$arial;
+	font-family:$default-arial;
 	font-size:13px;
 	font-weight:bold;
-	padding:7px $pixelTwenty;
+	padding:7px $default-pixelTwenty;
 	text-decoration:none;
-	text-shadow:$pixelZero 1px $pixelZero #5b8a3c;
+	text-shadow:$default-pixelZero 1px $default-pixelZero #5b8a3c;
 }
 input[type="submit"]:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, $submitColorTwo), color-stop(1, $submitColorOne));
-	background:-moz-linear-gradient(top, $submitColorTwo $fivePercent, $submitColorOne $oneHundredPercent);
-	background:-webkit-linear-gradient(top, $submitColorTwo $fivePercent, $submitColorOne $oneHundredPercent);
-	background:-o-linear-gradient(top, $submitColorTwo $fivePercent, $submitColorOne $oneHundredPercent);
-	background:-ms-linear-gradient(top, $submitColorTwo $fivePercent, $submitColorOne $oneHundredPercent);
-	background:linear-gradient(to bottom, $submitColorTwo $fivePercent, $submitColorOne $oneHundredPercent);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, $default-submitColorTwo), color-stop(1, $default-submitColorOne));
+	background:-moz-linear-gradient(top, $default-submitColorTwo $default-fivePercent, $default-submitColorOne $default-oneHundredPercent);
+	background:-webkit-linear-gradient(top, $default-submitColorTwo $default-fivePercent, $default-submitColorOne $default-oneHundredPercent);
+	background:-o-linear-gradient(top, $default-submitColorTwo $default-fivePercent, $default-submitColorOne $default-oneHundredPercent);
+	background:-ms-linear-gradient(top, $default-submitColorTwo $default-fivePercent, $default-submitColorOne $default-oneHundredPercent);
+	background:linear-gradient(to bottom, $default-submitColorTwo $default-fivePercent, $default-submitColorOne $default-oneHundredPercent);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
-	background-color:$submitColorTwo;
+	background-color:$default-submitColorTwo;
 }
 input[type="submit"]:active {
 	@include formMixin($position: relative, $top: 1px);
