@@ -53,8 +53,7 @@ default styles, allow your styles to be law!*/
   background-image: url(MarvelImage.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: fixed;
-  top: 0; }
+  background-position: center; }
 
 .welcome {
   margin-top: 200px;
