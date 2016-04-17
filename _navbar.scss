@@ -1,5 +1,5 @@
 a {
-    @include navBarMixin($padding-top: 19px, $padding-right: $default-pixelEighteen, $padding-bottom: $default-pixelEighteen, $padding-left: $default-pixelEighteen, $text-decoration: none, $color: black);
+    @include navBarMixin($padding-top: 19px, $padding-right: $default-pixelEighteen, $padding-bottom: 17px, $padding-left: $default-pixelEighteen, $text-decoration: none, $color: black);
 
 }
 
