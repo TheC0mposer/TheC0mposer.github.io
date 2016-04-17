@@ -83,7 +83,7 @@ h2 {
 a {
   padding-top: 19px;
   padding-right: 18px;
-  padding-bottom: 18px;
+  padding-bottom: 17px;
   padding-left: 18px;
   text-decoration: none;
   color: black; }
@@ -189,19 +189,5 @@ input[type="submit"]:active {
 
 .subMenu a:hover {
   background-color: white; }
-
-/*fix active {
-        background: #1a75ff;
-    }
-    
-and
-
-when sticky change the color of the nav bar, SMINT and isstick plugins may not
-play well with one another.
-
-Also fix top of page, when scrolling down manually, there appears to b ea large
-white space at the top of the screen just above the nav bar.
-
-*/
 
 /*# sourceMappingURL=styling.css.map */
