@@ -1,8 +1,4 @@
-.imgOne {
-    background-image: url(MarvelImage.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: $default-center;
-    
-    
+body {
+    background: url(MarvelImage.jpg) $default-center / cover fixed;
+
 }

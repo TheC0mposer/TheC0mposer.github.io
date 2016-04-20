@@ -9,9 +9,33 @@ default styles, allow your styles to be law!*/
 
 
 
+/*
+copy this project into a new workspace
+Make background white.
+relocate nav bar to the middle right.
+add a :hover effect of underline, black, trasition from the middle outward for each li element.
+make use of %placeholders / @extend.
+apply BEM Methodology as naming convention.
+switch everything using a class selector into an id selector, class selectors are convetionally used if you want to target multiple elements as opposed to id's are for one. Remember to get the em version of px just divide the px by th parent element.
+go back over your sizing, switch any px to ems that you feel would be a better fit.
+go back through your margin, padding, etc and swtich the numbers to percentages, where you feel it would be a better fit.
+go back and change any hex colors to rgba colors, if the element using that color needs to be transparent.
+go back and change the remaining hex colors to three charecter long if tey have ff3300 like colors.
+go back in your senteces that you are inserting and add "" + "" + "" around your skill words such as html, css, angular, etc.
+rewrite your line high values as 1.5 or other numbers, this will be 1.5 imes larger than the font size of the current element.
+go back and apply shorthand properties to your font: styling. style weight size/lineheight family, serif;
+go back and aply short hand to your padding, margin, and border as well in case you have not done so already.
+go back and rewrite your margin to auto, that way your text will me centerered in the middle of the screen.
+go back and redoo your margin, padding, and position, rigbt now you may be using one when you should be using another.
+go back and apply box-sixing: border-box to any elements you were working with width and or hieght in. Apply it to the * {} universal selector would get the job done.
+applying a max-width would make sure your content dose not stretch to much.
 
 
+copy current old project and place it in a github pages project site.
+add a gallery that contains images and with links inside them to your github project pages that are old versions of your current portfolio site they are on (check past versions of my site!).
+remove old project and paste in the new project from the new workspace, push to github.
 
+*/
 
 
 
